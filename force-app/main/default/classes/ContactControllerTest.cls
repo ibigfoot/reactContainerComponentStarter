@@ -10,7 +10,8 @@ private class ContactControllerTest {
 
         // call the controller
         Contact[] returnArray = ContactController.getContactsByName('Adam');
-        System.assertEquals(1, )
+        System.assertEquals(1,returnArray.size());
+        System.assertEquals('Adam Sellers', returnArray[0].Name);
         
     }
 }
