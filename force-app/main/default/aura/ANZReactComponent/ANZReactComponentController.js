@@ -12,6 +12,6 @@
 
     handleError: function (component, event, helper) {
         var error = event.getParams();
-        console.log(error);
+        console.log('errors received: ' + error);
     }
 })
