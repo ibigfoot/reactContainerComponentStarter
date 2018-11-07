@@ -1,7 +1,7 @@
 @isTest
 private class ContactControllerTest {
     // this test is for the React Component Contacts
-    static @IsTest
+    @IsTest
     static void testContactController(){
     
         // create the contact
