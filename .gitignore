@@ -1,3 +1,4 @@
 .sfdx
 .vscode
 /react-app/node_modules
+/assets/server.key
