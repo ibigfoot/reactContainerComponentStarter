@@ -1,0 +1,8 @@
+{
+    "orgName": "ANZ Demo Orgs",
+    "edition": "Developer",
+    "hasSampleData": "true",
+    "orgPreferences" : {
+        "enabled": ["S1DesktopEnabled"]
+    }
+}

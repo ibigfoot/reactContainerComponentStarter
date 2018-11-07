@@ -1,0 +1,24 @@
+{
+  "name": "anz-lcc",
+  "version": "1.0.0",
+  "description": "Lightning Container Demo app for react in Salesforce",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Adam Sellers",
+  "license": "ISC",
+  "dependencies": {
+    "lightning-container": "^1.0.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
