@@ -1,8 +1,8 @@
 # SFDX  App
-This is an example app showing a react component in Lightning with Travis CI
+This is an example app showing a react component in Lightning with Travis CI.
 
 ## Dev, Build and Test
-TODO
+there are plenty of steps involved in this, but you can check them out [here](www.google.com).
 
 ## Resources
 TODO
