@@ -7,6 +7,12 @@
     overflow: scroll;
 }
 
+.container {
+    background-image: url('/images/anzLogo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .list-item {
     padding: 4px;
     border-bottom: solid 1px #DDDBDA;

@@ -41,7 +41,7 @@ class App extends React.Component {
         let contacts = this.state.contacts.map(contact =>
             <div key={contact.Id} className='list-item'><a data-id={contact.Id} onClick={this.itemClicked.bind(this)}>{contact.Name}</a><p>{contact.Phone}</p></div>
         );
-        return <div>
+        return <div class="container">
                 <input id="key" type="text" className="slds-input" placeholder="Enter contact name..."
                     onChange={this.searchKeyChange.bind(this)}/>
                 {contacts}

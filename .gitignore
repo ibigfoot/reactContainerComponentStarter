@@ -2,3 +2,5 @@
 .vscode
 /react-app/node_modules
 /assets/server.key
+/force-app/main/default/tabs
+/force-app/main/default/flexipages
