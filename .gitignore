@@ -1,5 +1,6 @@
 .sfdx
 .vscode
+*.DS_Store
 /react-app/node_modules
 /assets/server.key
 /force-app/main/default/tabs
