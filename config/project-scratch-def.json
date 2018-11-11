@@ -4,5 +4,6 @@
     "hasSampleData": "true",
     "orgPreferences" : {
         "enabled": ["S1DesktopEnabled"]
-    }
+    }, 
+    "features": ["ContactsToMultipleAccounts", "DebugApex"]
 }
