@@ -1,4 +1,5 @@
 # SFDX  App
+[![Build Status](https://travis-ci.org/adamSellers/reactContainerComponentStarter.svg?branch=master)](https://travis-ci.org/adamSellers/reactContainerComponentStarter)
 This is an example app showing a react component in Lightning with Travis CI.
 
 ## Dev, Build and Test
