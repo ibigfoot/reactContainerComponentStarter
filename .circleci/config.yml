@@ -42,10 +42,6 @@ jobs:
           #- openssl rsa -in keys/deploy.key -check -noout
           #- sfdx force:auth:jwt:grant --clientid $DEPLOY_CONSUMER_KEY --jwtkeyfile keys/deploy.key --username $DEPLOY_SFDC_USER -a deploy
       - run:
-          name: List out Stuff
-          command: |
-            ls -la
-      - run:
           name: Setup Org
           command: |
             echo 'Running tests'
