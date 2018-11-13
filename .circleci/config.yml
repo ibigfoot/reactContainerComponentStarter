@@ -53,6 +53,10 @@ jobs:
             sfdx force --help
             sfdx force:org:create -s -f ~/ci_app/config/project-scratch-def.json -a circle_build_$CIRCLE_BUILD_NUM --wait 3
             sfdx force:source:push -u circle_build_$CIRCLE_BUILD_NUM
+      - run: 
+          name: Install Fin Serv Cloud
+          command: |
+          - sfdx force:package:install -u ciorg -p 04t80000000jZjl -w 5
       - run:
           name: Run Apex Tests
           command: |
