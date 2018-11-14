@@ -48,10 +48,6 @@ jobs:
             sfdx force:auth:jwt:grant --clientid $HUB_CONSUMER_KEY --jwtkeyfile assets/server.key --username $HUB_SFDC_USER --setdefaultdevhubusername -a hub
             sfdx force --help
             sfdx force:org:create -s -f ~/ci_app/config/project-scratch-def.json -a circle_build_$CIRCLE_BUILD_NUM --wait 3
-      - run: 
-          name: Install Fin Serv Cloud
-          command: |
-            sfdx force:package:install -u circle_build_$CIRCLE_BUILD_NUM -p 04t80000000jZjl -w 5
       - run:
           name: Push the source code
           command: |
