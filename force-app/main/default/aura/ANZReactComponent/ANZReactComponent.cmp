@@ -1,6 +1,6 @@
 <aura:component implements="flexipage:availableForAllPageTypes" access="global">
 
-    <lightning:card title="Search for a Customer Name">
+    <lightning:card title="Search for a Contact Name">
         <lightning:container aura:id="jsApp" src="{!$Resource.anzreact + '/index.html'}" 
             onmessage="{!c.handleMessage}"
             onerror="{!c.handleError}" />
