@@ -1,7 +1,7 @@
 # SFDX  App
 [![CircleCI](https://circleci.com/gh/adamSellers/reactContainerComponentStarter.svg?style=svg)](https://circleci.com/gh/adamSellers/reactContainerComponentStarter)
 
-This is an example app showing a react component in Lightning with Circle CI.
+This is an example app showing a react component in Lightning with Circle CI. I add a change.
 
 ## Dev, Build and Test
 To build and deploy this in your own scratch org, do the following:
