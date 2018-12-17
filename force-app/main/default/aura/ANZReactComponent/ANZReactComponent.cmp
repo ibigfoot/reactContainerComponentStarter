@@ -1,6 +1,6 @@
 <aura:component implements="flexipage:availableForAllPageTypes" access="global">
 
-    <lightning:card title="Change the Lightning Component!">
+    <lightning:card title="Making a change!">
         <lightning:container aura:id="jsApp" src="{!$Resource.anzreact + '/index.html'}" 
             onmessage="{!c.handleMessage}"
             onerror="{!c.handleError}" />
